@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<title>Employees</title>
+		<style>
+			body {background : white }
+			div.employee {font-size : 14px ; width : 200px ; float:left ; margin : 20px ; border-radius : 10px ; background-color : white ; color: black ; border : solid black 1px}
+			div.employee p {padding : 2px}
+			div.manager h2 {background : green ; text : white ; margin-top : 0px ; border-radius : 5px 5px 0px 0px}
+			div.engineer h2 {background : red ; color : white ; margin-top : 0px ; border-radius : 5px 5px 0px 0px}
+			div.intern h2 {background : blue ; text : white ; margin-top : 0px ; border-radius : 5px 5px 0px 0px}
+		</style>
+	</head>
+	<body>
+		{{> manager }}
+		{{> engineer }}
+		{{> intern }}
+	</body>
+</html>
